@@ -4,7 +4,7 @@ A Vue.js starter/seed project for plugins to be compiled for the browser and nod
 
 ## Get Started
 
-###vue-cli
+### vue-cli
 ```
 $ npm install -g vue-cli
 $ vue init boogermann/vue-plugin-starter new-plugin
@@ -15,16 +15,15 @@ $ npm install
 $ npm run build
 ```
 
-###sao
+### sao
 
-This template can be used with sao, which also means you can use the template offline:
 ```
 npm install -g sao
 # from git repo
 sao boogermann/vue-plugin-starter new-plugin
 ```
 
-###For Windows users
+### For Windows users
 
 Install ```git with unix tools``` before getting started.
 
