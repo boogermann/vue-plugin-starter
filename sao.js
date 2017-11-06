@@ -6,6 +6,11 @@ module.exports = {
 			message: 'Project name',
 			role: 'folder:name'
 		},
+		global: {
+			type: 'string',
+			required: true,
+			message: 'Global namespace (ex: MyAwesomePlugin)'
+		},
 		description: {
 			required: false,
 			message: 'Project description',

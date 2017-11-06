@@ -3,7 +3,12 @@
 		"name": {
 			"type": "string",
 			"required": true,
-			"message": "Project name"
+			"message": "Project name (ex: my-awesome-plugin)"
+		},
+		"global": {
+			"type": "string",
+			"required": true,
+			"message": "Global namespace (ex: MyAwesomePlugin)"
 		},
 		"description": {
 			"type": "string",
@@ -16,5 +21,5 @@
 			"message": "Author"
 		}
 	},
-	"completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run build"
+	"completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\nTo build your plugin:\n  npm run build"
 }
