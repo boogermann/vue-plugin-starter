@@ -1,0 +1,14 @@
+{
+	"name": "template-vue-plugin",
+	"scripts": {
+		"test": "echo canYouVueThis?"
+	},
+	"dependencies": {},
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:boogermann/vue-plugin-starter.git"
+	},
+	"author": "Marcus Andrade <marcusjordan@outlook.com>",
+	"license": "MIT"
+}
